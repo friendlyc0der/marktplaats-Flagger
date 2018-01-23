@@ -1,9 +1,9 @@
-import requests
+5import requests
 import sys
 from bs4 import BeautifulSoup
 import json
 
-flagDuration = 25
+flagDuration = 5
 
 for x in range(0, flagDuration):
 	session = requests.Session()
